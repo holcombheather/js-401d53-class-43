@@ -15,16 +15,33 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.holcombheather.js401d53class43"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.holcombheather.js401d53class43"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "41daaa49-0b1a-452d-8c71-30b38d08fad5"
+      }
+    },
+    "owner": "holcombheather",
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-asdaiq2qzmt7fozh.us.auth0.com",
+          "customScheme": "YOUR_CUSTOM_SCHEME"
+        }
+      ]
+    ]
   }
 }
