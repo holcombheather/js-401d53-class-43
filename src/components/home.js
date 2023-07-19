@@ -51,29 +51,29 @@ export default function Home() {
   }
 
   return (
-    <><View style={styles.container}>
-      <Text>Hello from home!</Text>
-      <Button onPress={showDatepicker} title="Show date picker!" />
-      <Button onPress={showTimepicker} title="Show time picker!" />
-      <Text>selected: {date.toLocaleString()}</Text>
-      {show && (
-        <DateTimePicker
-          testID="dateTimePicker"
-          value={date}
-          mode={mode} />
-      )}
-    </View>
-
-    {/* <View style={styles.container}> */}
-    <Camera style={styles.camera} type={type}>
+    <>
+      {/* <View style={styles.container}>
+        <Text>Hello from home!</Text>
+        <Button onPress={showDatepicker} title="Show date picker!" />
+        <Button onPress={showTimepicker} title="Show time picker!" />
+        <Text>selected: {date.toLocaleString()}</Text>
+        {show && (
+          <DateTimePicker
+            testID="dateTimePicker"
+            value={date}
+            mode={mode} />
+        )}
+      </View> */}
+      <View style={styles.container}>
+      <Camera style={styles.camera} type={type}>
         <View style={styles.buttonContainer}>
           <TouchableOpacity style={styles.button} onPress={toggleCameraType}>
             <Text style={styles.text}>Flip Camera</Text>
           </TouchableOpacity>
         </View>
       </Camera>
-      {/* </View> */}
-      </>
+      </View>
+    </>
   );
 }
 
