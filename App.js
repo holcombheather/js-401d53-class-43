@@ -5,6 +5,7 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import Home from './src/components/home';
 import Footer from './src/components/footer';
 import Header from './src/components/header';
+import CameraComponent from './src/components/Camera';
 
 
 
@@ -36,13 +37,8 @@ export default function App() {
   
     <>
     <Header />
-    <View style={styles.container}>
-      <Text>Hello</Text>
-    </View>
         <Home />
-        <View style={styles.container}>
-          <Text>Hello lab 43!</Text>
-        </View>
+        {/* <CameraComponent /> */}
         <Footer />
       </>
   );

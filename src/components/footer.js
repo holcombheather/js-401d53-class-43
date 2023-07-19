@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 export default function Footer() {
   return (
     <View style={styles.container}>
-             <Text>Hello from footer!</Text>
+        <Text style={styles.text}>© 2023 Heather Holcomb</Text>
     </View>
   )
 }
@@ -16,5 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'pink',
     padding: 5,
+  },
+  text: {
+    fontSize: 16,
+    lineHeight: 1.2*16, 
+    letterSpacing: 0,
+    fontFamily: 'Souci Sans',
   }
-})
+});
