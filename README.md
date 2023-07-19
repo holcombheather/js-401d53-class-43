@@ -55,4 +55,4 @@ Create your first native phone/device application using React Native, tapping in
 
 #### UML
 
-![UML-43](assets/UML.png)
+![UML-43](assets/UML2.png)
