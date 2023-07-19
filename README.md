@@ -37,8 +37,15 @@ Create your first native phone/device application using React Native, tapping in
 
 #### Features / Routes
 
-- Expo: Haptics, Camera
-- Auth0
+- # Application Requirements
+
+1. **Use 2 screens / components**
+2. **Use and share state between components/screens**
+3. **Use at least 1 native device feature (Contacts, Camera, GPS, etc)**
+4. **Properly Documented for End Users**
+5. **Live Demo & Presentation**
+
+
 
 #### Tests
 
